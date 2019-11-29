@@ -1,0 +1,85 @@
+.head{
+  width: 100%;
+  height: 200px;
+  text-align: center;
+}
+#img{
+  width: 95%;
+  height: 100%;
+}
+#judul1{
+  text-align: left;
+  padding: 30px 20px;
+  color: white;
+  margin-bottom: -3%
+}
+
+#judul12{
+  text-align: right;
+  padding: 30px 20px;
+  color: white;
+  margin-bottom: -3%
+}
+
+#h3{
+  display: inline;
+}
+#txt_h3{
+  margin-top: 20px;
+  margin-left: 20px;
+  color: white
+}
+#txt_h3 a{
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+}
+#txt_h3 a:hover{
+  background-color: grey;
+  border-radius: 20px;
+  color: white;
+}
+.txt{
+  font-size: 20px;
+  color: white;
+  text-align: justify;
+  width: 98.5%;
+}
+.txt2{
+  text-align: right;
+  font-size: 20px;
+  color: white;
+  text-align: justify;
+  width: 98.5%;
+  float: right;
+}
+.aaa{
+  color: yellow;
+}
+.aaa1{
+  position: relative;
+  align: right;
+  color: yellow;
+}
+#Bromo{
+  width: 100%;
+  height: 200px;
+  text-align: center;
+}
+#rara{
+  width: 380px;
+  height: 300px;
+  padding-top: 40px;
+}
+#judul2{
+  padding: 150px 20px;
+  color: white;
+  margin-bottom: -11%
+}
+#txt{
+  font-size: 20px;
+  color: white;
+  text-align: justify;
+  width: 96.5%;
+  padding-left: 20px;
+}

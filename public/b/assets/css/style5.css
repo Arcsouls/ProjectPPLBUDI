@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+
+   
+}
+body{
+    width: 100%;
+    height: 150vh;
+    background-size: cover;
+    font-family: verdana;
+    margin:0;
+    background-repeat: no-repeat;
+
+   
+
+}
+
+nav{
+	width: 100%;
+	height:80px;
+	background-color: transparent;	
+	line-height: 80px;
+    font-family: verdana;
+    
+}
+
+nav ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+	margin-right: 50px;
+
+}
+
+nav ul li{
+	display: inline-block;
+ }
+
+nav ul li a:hover{
+	background-color: #fff;
+	color:#000;
+}
+
+nav li.active a{
+	background-color: #e02629;
+	color:#fff;
+	border-radius: 50px/50px;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding:5px 20px;
+	border:1px solid;
+	transition: 0.5s ease;
+	border-radius: 10px;
+}
+
+.logo {
+	padding-top: 1px;
+	padding-left: 100px;
+	width: 150px;
+	height: 150px;
+}
+
+.wrap{
+	width: 393px;
+	margin:auto;
+	background-color: rgba(0,0,0,0.3);
+	margin-top: 50px;
+	padding:5px;
+	border-radius: 10px;
+}
+
+ form{
+ 	width: 350px;
+ 	height: 600px;	
+	padding: 10px;
+	font-family: arial;
+	border:1px solid #fff;
+	margin:10px;
+	color:#fff;
+}
+h2{
+	text-align: center;
+	background:transparent;
+	color:White;
+	padding:10px;
+	border-radius:10px;
+	font-family: Bahnschrift SemiLight SemiConde;
+	font-size: 40px ;
+
+} 
+input{
+	padding:10px;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin:5px;
+	border-radius:5px;
+	border:none;
+	
+}
+input[type=text], input[type=email], input[type=number], input[type=password]{
+	width: 95%;
+}
+.button {
+	 border: 1px solid ;
+    border-width: 1px;
+    text-decoration-line: none;
+    padding:5px 10px;
+    cursor: pointer;
+    outline: none ;
+    float: right;
+    font-size: 20pt;
+    background:transparent;
+    color:#fff;
+    font-size: 18px;
+    border-radius: 10px;
+    font-weight: normal;
+    margin-top: 20px;
+}
+
+.button:hover{
+	background: #A9A9A9;
+	color:#000;
+}
+
+select{
+	padding: 10px;
+	width:32%;
+	border-radius: 5px;
+
+}
+
+#loading{
+	width: 50px;
+	height: 50px;
+	border: solid 5px #ccc;
+	border-top-color: #ff6a00;
+	border-radius: 100%;
+
+	position: fixed;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+
+	margin: auto;
+
+	animation: putar 2s linear infinite;
+}
+
+@keyframes putar{
+	from{transform: rotate(0deg)}
+	to{transform: rotate(360deg)}
+}
